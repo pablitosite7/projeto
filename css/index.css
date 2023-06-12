@@ -1,0 +1,160 @@
+body{
+  background-image: url(../imagens/copiaup.jpg);
+ 
+ }
+ .doisvei{
+  width: 350px;
+  position: absolute;
+  margin-left:-6%;
+  margin-top: -35%;
+ }
+ h3{
+  position: absolute;
+  margin-top: -53%;
+  background: transparent;
+  width: 780px;
+  margin-left: -6%;
+  color: rgb(15, 15, 97);
+  font-size: 150%;
+ }
+ .umvei{
+  width: 350px;
+  position: absolute;
+  margin-left:37%;
+  margin-top: -35%;
+ }
+ 
+ 
+ .Max{
+    width: 200px;
+   position: absolute;
+   margin-left: 8%;
+   margin-top: -8%;
+
+
+  }
+ .h1{
+   display: flex;
+   justify-content: center;
+   margin-top: -8%;
+   margin-left: -30%;
+ }
+ h2{
+  position: absolute;
+  margin-top: -55%;
+  margin-left: 20%;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ p{
+  font-size: 23px;
+  margin-top: -51%;
+  position: absolute;
+  margin-left: -90px;
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: white;
+  width: 90%;
+  height: 67%;
+ }
+ .inicio{
+  margin-top: 12%;
+ }
+ .obt{
+  background: transparent;
+  backdrop-filter: blur(20px);
+  padding: 100px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: white;
+  width: 690px;
+  margin-left: -15%;
+  margin-top: -50px;
+}
+  .button {
+    background-color:rgb(15, 15, 97);
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 17px;
+    margin-left: 30px;
+   
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+  }
+  .buttons{
+    position: relative;
+   
+ }
+ .bk{
+  background-color: black;
+  background: transparent;
+  padding: 100px;
+  backdrop-filter: blur(20px);
+  position: relative;
+
+
+ }
+ .bt{
+  margin-left: 29.5%;
+  margin-top: -60px;
+  position: absolute;
+
+
+ }
+ .cadastro{
+  width: 400px;
+  height: 300px;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 35%;
+  background-color: white;
+  border-radius: 10px;
+ }
+ .e-mail{
+  margin-left: -260px;
+  margin-bottom: -20px;
+ }
+ .senha{
+  margin-left: -260px;
+  margin-bottom: -20px;
+ }
+ .entrar{
+  background-color:rgb(15, 15, 97);
+  border: 2px solid;
+  color:white;
+  padding: 10px 20px;
+  text-decoration: none;
+ }
+ .cadastre-se{
+  background-color:rgb(15, 15, 97);
+  border: 2px solid;
+  color:white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 230px;
+  }
+ .cadastrar{
+  margin-left: -80px;
+ margin-top: 10%;
+ margin-bottom: -20px;
+ color:blue;
+  }
+ 
+
+
+
+
