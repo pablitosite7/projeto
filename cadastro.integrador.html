@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/cadastro.integrador.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/footer.index.css">
 </head>
 
 
@@ -28,73 +30,76 @@
         </div>
     </header>
     <br>
-    <div class="movercd">
+    <div style="margin: 5%;" class="movercd">
         <div class="cadastro">
 
 
 
 
-            <h2>Cadastro</h2>
+            <h2 style="margin: 4%; color: white;">Cadastro</h2>
 
             <form id="cadastroForm" onsubmit="return validarFormulario(event)">
 
                 <label for="Nome">
-                    <h4 style="margin-top: -1%;" class="nome">Nome Completo:</h4>
+                    <h4 style="margin-top: -1.2%; margin-left: 5%;" class="nome">Nome Completo:</h4>
                 </label>
                 <input type="text" id="Nome" name="Nome" required class="inputnome">
 
                 <br><br><br><br>
 
                 <label for="e-mail">
-                    <h4 class="e-mail">E-mail:</h4>
+                    <h4 style="margin-left: 110px" class="e-mail">E-mail:</h4>
                 </label>
                 <input type="email" id="e-mail" name="e-mail" required class="inputmail">
-
-                <label for="Data de nascimento">
-                    <h4 class="data">Data de Nascimento:</h4>
-                </label>
-                <input class="inputdate" type="date" id="Data de nascimento" name="Data de nascimento" required>
-
+                <div>
+                    <label for="Data de nascimento">
+                        <h4 class="data">Data de Nascimento:</h4>
+                    </label>
+                    <input class="inputdate" type="date" id="Data de nascimento" name="Data de nascimento" required>
+                </div>
                 <br><br><br><br>
-
-                <label for="senha">
-                    <h4 style="margin-top: -6%;" class="senha">Senha:</h4>
-                </label>
-                <input type="password" id="senha" name="senha" required class="inputsenha">
-
+                <div style="margin: 2.2%;">
+                    <label for="senha">
+                        <h4 style="margin-top: -6%; margin-left: 97px;" class="senha">Senha:</h4>
+                    </label>
+                    <input type="password" id="senha" name="senha" required class="inputsenha">
+                </div>
                 <br><br><br><br>
 
                 <label for="confirmarSenha">
-                    <h4 class="confirsenha">Confirme sua senha:</h4>
+                    <h4 style="margin-left: 8%;" class="confirsenha">Confirme sua senha:</h4>
                 </label>
-                <input type="password" id="confirmarSenha" name="confirmarSenha" required class="inputconfirm">
+                <input style="margin-left: -65px;" type="password" id="confirmarSenha" name="confirmarSenha" required
+                    class="inputconfirm">
 
-                <h4 class="navegar" style="color: white;">Como deseja navegar no nosso site?</h4>
-                <label class="container">Como empresa:
-                    <input type="checkbox" name="navegacao" value="empresa" checked="checked">
-                    <span class="checkmark"></span>
-                </label>
-                <br><br>
-                <label class="container">Procurando emprego:
-                    <input type="checkbox" name="navegacao" value="emprego" checked="checked">
-                    <span class="checkmark"></span>
-                </label>
+                <h4 class="navegar" style="color: white; margin: 3px;">Sexo:</h4>
+                <div style="margin-top: 20px;">
+                    <label class="container">Masculino
+                        <input type="checkbox" name="navegacao" value="empresa" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <br><br>
+                    <label class="container">Feminino
+                        <input type="checkbox" name="navegacao" value="emprego" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
                 <br><br>
                 <br>
-                <button type="submit" onclick="" class="entrar">Entrar</button>
+                <button style="margin-top: -28px;" type="submit" onclick="" class="entrar">Entrar</button>
             </form>
 
             <script>
                 function validarFormulario(event) {
                     event.preventDefault();
-            
+
                     // Obter valores dos campos
                     var nome = document.getElementById("Nome").value;
                     var email = document.getElementById("e-mail").value;
                     var dataNascimento = document.getElementById("Data de nascimento").value;
                     var senha = document.getElementById("senha").value;
                     var confirmarSenha = document.getElementById("confirmarSenha").value;
-            
+
                     // Validação dos campos
                     if (nome !== "" && email !== "" && dataNascimento !== "" && senha !== "" && confirmarSenha !== "") {
                         // Redirecionar ou executar ação desejada
@@ -102,16 +107,151 @@
                     } else {
                         alert("Por favor, preencha todos os campos.");
                     }
-            
+
                     return false;
                 }
             </script>
 
 
 
-            <img src="./img/check-mark-297739_640.png" alt="" class="V" width="50" height="50">
+            <img style="margin-top: -68%;" src="./img/check-mark-297739_640.png" alt="" class="V" width="50"
+                height="50">
         </div>
     </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img style="margin-left: 23%; margin-top: -13%;" src="img/Meuprojeto.png" width="35%">
+                <h6 style="margin-left: -10%; font-size: 85%; background: transparent; width: 400px;"> Max Competence:
+                    Construindo futuros promissores.</h6>
+
+
+
+
+
+
+
+
+                <div style="margin-left: 12%;" id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+
+
+
+
+
+
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+
+
+
+
+
+
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <ul class="footer-list">
+                <li>
+                    <h4>Ferramentas</h4>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Vs Code</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Html</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Css</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Javascript</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Canva</a>
+                </li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <h4>Products</h4>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+
+
+
+
+
+
+
+            <div id="footer_subscribe">
+                <h4>Notificações</h4>
+
+
+
+
+
+
+
+
+                <h5>
+                    Digite seu e-mail se quiser receber nossas notificações diárias...
+                </h5>
+
+
+
+
+
+
+
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="footer_copyright">
+            &#169
+            2023 Todos os direitos reservados.
+        </div>
+    </footer>
 
 
 
