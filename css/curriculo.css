@@ -1,0 +1,231 @@
+.bk {
+    background-color: black;
+    background: transparent;
+    padding: 100px;
+    backdrop-filter: blur(20px);
+    position: relative;
+
+}
+
+
+.bt {
+    margin-left: 29.5%;
+    margin-top: -60px;
+    position: absolute;
+
+}
+
+.vg {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 30px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+    margin-left: -30%;
+}
+
+.loc {
+    margin-top: -77px;
+    
+}
+
+.button {
+    background-color: rgb(15, 15, 97);
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 17px;
+    margin-left: 30px;
+
+
+}
+
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.Max {
+    width: 200px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -6.5%;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/copiaup.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+
+
+h1,
+h2 {
+    color: #333;
+}
+
+form {
+    width: 400px;
+}
+
+label {
+   display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.nome {
+    margin-left: 23%;
+    width: 200px;
+}
+.titulo{
+   justify-content: center;
+    display: flex;
+}
+.endereco {
+    margin-left: 23%;
+    width: 200px;
+}
+.telefone {
+    margin-left: 23%;
+    width: 200px;
+}
+.email {
+    margin-left: 23%;
+    width: 200px;
+}
+.objetivo {
+    margin-left: 23%;
+    width: 200px;
+}
+.experiencia {
+    margin-left: 23%;
+    width: 200px;
+}
+.cargo1 {
+    margin-left: 23%;
+    width: 200px;
+}
+.formacao {
+    margin-left: 23%;
+    width: 200px;
+}
+.instituicao {
+    margin-left: 23%;
+    width: 200px;
+}
+.conclusao {
+    margin-left: 23%;
+    width: 200px;
+}
+.anexar {
+    margin-left: 23%;
+    width: 200px;
+}
+.info{
+    background-color:rgb(15, 15, 97) ;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: white;
+    width: 700px;
+    height: fit-content;
+    margin-left: 2%;
+}
+.intro{
+    background-color: rgb(15, 15, 97) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.total{
+    margin: 0;
+    background-color: black;
+}
+.obj{
+    margin-left: 120%;
+    width: 200px;
+    margin-top: -180%;
+}
+.exp{
+    margin-left: 120%;
+    width: 200px;
+    margin-top: -13%;
+}
+.anexo{
+    margin-left: 50%;
+    margin-top: -150%;
+    font-size: 150%;
+}
+.fa{
+    width: 200px;
+    margin-left: -37px;
+}
+.trampo{
+    display: flex;
+   justify-content: right;
+   flex-direction: column;
+   margin-top: -58%;
+   margin-left: 60%;
+}
+.frase{
+  background: transparent;
+  width: 500px;  
+
+}
+.title{
+    display: flex;
+  justify-content: center;
+  margin-left: -30%;
+  margin: -10px;
+}
+.sexo{
+    margin-left: 140%;
+}

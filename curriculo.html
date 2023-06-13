@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Página de Currículo</title>
+    <link rel="stylesheet" href="css/curriculo.css">
+</head>
+
+<body>
+    <header>
+        <div class="bk"><img src="./img/Meuprojeto.png" class="Max"></div>
+        <div class="bt">
+            <div class="loc">
+                <div class="title">
+                    <h1 style="margin-left: -25%; color: black;">Depois de cadastrar seu currículo você terá acesso às
+                        vagas!!</h1>
+                </div>
+                <a class="button button1" href="inicio.html" target="_parent">Início </a>
+                <a class="button button2" href="vagas.html" target="_parent">Vagas</a>
+                <a class="button button3" href="#" target="_parent">Currículo</a>
+                <a class=" button button4" href="noticias.html" target="_parent">Notícias</a>
+            </div>
+    </header>
+    <div class="intro">
+        <h1 style="color: white;">Cadastre seu curriculo abaixo:</h1>
+    </div>
+
+    <ul class="total"><br><br>
+
+        <div class="info">
+            <div class="titulo">
+                <h1 style="color: white;">Informações pessoais</h1>
+            </div>
+
+            <form>
+                <div class="nome"><label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                </div>
+                <div class="endereco">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required><br><br>
+                </div>
+                <div class="telefone">
+                    <label for="telefone">Número de telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required><br><br>
+                </div>
+                <div class="email">
+                    <label for="email">Endereço de e-mail:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+                <div class="objetivo">
+                    <ul class="obj">
+                        <h2 style="color: white;">Objetivo profissional</h2>
+                        <textarea id="objetivo" name="objetivo" rows="4" cols="50" required></textarea><br><br>
+                    </ul>
+                </div>
+                <div class="experiencia">
+                    <ul class="exp">
+                        <h2 style="color: white;">Experiência profissional</h2>
+                        <label for="empresa1">Empresa 1:</label>
+                        <input type="text" id="empresa1" name="empresa1" required><br><br>
+                    </ul>
+                    <div class="sexo"><label for="sexo">Sexo:</label>
+                        <select id="sexo" name="sexo">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="nao-binario">Não-binário</option>
+                        </select><br><br>
+                    </div>
+                </div>
+                <div class="formacao">
+                    <ul class="fa">
+                        <h2 style="color: white; margin-top: -40%;">Formação acadêmica</h2>
+                        <label for="diploma">Diploma / Certificado:</label>
+                        <input type="text" id="diploma" name="diploma" required><br><br>
+                    </ul>
+                </div>
+
+                <div class="instituicao">
+                    <label for="instituicao">Instituição educacional:</label>
+                    <input type="text" id="instituicao" name="instituicao" required><br><br>
+                </div>
+                <div class="conclusao">
+                    <label for="ano">Ano de conclusão:</label>
+                    <input type="text" id="ano" name="ano" required><br><br>
+                </div><br><br>
+
+
+
+            </form>
+
+
+        </div>
+        <br>
+    </ul>
+    <div class="anexar">
+        <ul class="anexo">
+            <h2 style="color: white;">Anexar currículo</h2>
+            <!-- <input type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx" required><br><br> -->
+
+            <input style="width: 200%; height: 100%;" type="submit" value="Enviar">
+
+
+        </ul>
+    </div><br><br><br><br>
+    <div class="intro">
+        <h1 style="color: white;">Assim que cadastrar seu curriculo você já pode correr para as vagas que tanto deseja!!</h1>
+    </div>
+    <div class="trampo">
+        <div class="frase">
+            <h1 style="color: white;">Persista no trabalho duro, pois cada pequeno passo é uma conquista rumo ao
+                sucesso.</h1>
+        </div>
+        <div class="gif"><img src="./img/MHcC.gif" width="500"></div>
+    </div>
+
+</body>
+
+</html>

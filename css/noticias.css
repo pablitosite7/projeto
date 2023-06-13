@@ -1,0 +1,154 @@
+
+.bck{
+    background-color:  rgb(189, 178, 188);
+    margin: 0;
+}
+
+
+.bk {
+    background-color: black;
+    background: transparent;
+    padding: 100px;
+    backdrop-filter: blur(20px);
+    position: relative;
+  
+  }
+  .bt {
+    margin-left: 29.5%;
+    margin-top: -60px;
+    position: absolute;
+  
+  }
+  .vg{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 30px;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: -30%;
+    margin: 10px;
+  }
+  .loc {
+    margin-top: -53px;
+    margin-left: -10;
+  }
+  .button {
+    background-color: rgb(15, 15, 97);
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 17px;
+    margin-left: 30px;  
+  }
+  
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+  }
+  .Max {
+    width: 200px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -6%;
+  
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/copiaup.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    color:black;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: rgb(15, 15, 97);
+    margin-bottom: 10px;
+  }
+
+  article {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  .sub{
+    background-color: rgb(15, 15, 97);
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+    
+  }
+  .title{
+    display: flex;
+  justify-content: center;
+  margin: 11px;
+  background: transparent;
+  width: 800px;
+}
